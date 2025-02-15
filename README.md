@@ -1,7 +1,7 @@
-# Car Price Prediction using Random Linear Regression and Lasso
+# Car Price Prediction using Linear Regression and Lasso
 
 ## Overview
-This project builds a machine learning model to predict the price of cars using **Random Linear Regression** and **Lasso Regression**. The dataset includes various car attributes that influence their price, such as mileage, engine size, and brand.
+This project builds a machine learning model to predict the price of cars using **Linear Regression** and **Lasso Regression**. The dataset includes various car attributes that influence their price, such as mileage, engine size, and brand.
 
 ## Dataset
 The dataset used for this project contains features like:
@@ -35,7 +35,7 @@ pip install numpy pandas scikit-learn matplotlib seaborn
    
 3. **Model Training**
    - Split the dataset into training and testing sets.
-   - Train models using **Random Linear Regression** and **Lasso Regression**.
+   - Train models using **Linear Regression** and **Lasso Regression**.
    - Optimize hyperparameters using GridSearchCV.
    
 4. **Evaluation**
@@ -53,5 +53,5 @@ python train_model.py
 - Important factors affecting car price include **brand, engine size, and mileage**.
 
 ## Conclusion
-This project successfully predicts car prices using **Random Linear Regression** and **Lasso Regression**, demonstrating how different regression techniques perform in price estimation tasks.
+This project successfully predicts car prices using **Linear Regression** and **Lasso Regression**, demonstrating how different regression techniques perform in price estimation tasks.
 # CarPricePrediction
